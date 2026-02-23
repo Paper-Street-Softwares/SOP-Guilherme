@@ -113,10 +113,10 @@ const content = {
         "Serviços",
         "Sobre",
         "Perguntas",
-        // 'Blog',
+        "Blog",
         // 'Mapa',
       ],
-      menuId: ["home", "feature", "about", "faq"],
+      menuId: ["home", "feature", "about", "faq", "blog"],
       ariaLabel: "Botão de Contato",
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
@@ -193,9 +193,9 @@ const content = {
       FirstPart: <span>Advocacia que </span>,
       Destaque: <span className="italic font-light">Resolve</span>,
       SecondPart: <span></span>,
-      subtitle: <>Soluções jurídicas estratégicas para proteger patrimônio e família.
-
-</>,
+      subtitle: (
+        <>Soluções jurídicas estratégicas para proteger patrimônio e família.</>
+      ),
       imgFeatures: imgFeatures,
       alt: <>Imagem ilustrativa da Features</>,
       titleMessageFeature: <>100%</>,
