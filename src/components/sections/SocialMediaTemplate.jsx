@@ -8,6 +8,7 @@ import {
   Facebook,
   Youtube,
   Linkedin,
+  Phone,
 } from "lucide-react";
 import iconTikTok from "../../assets/imgs/icons/tiktok.png";
 import SectionHeaderNovo from "../sectionElements/SectionHeaderNovo";
@@ -280,6 +281,35 @@ function SocialMediaTemplate({ colorMode }) {
                           className={`font-secondFont font-light text-sm ${textOpacity}`}
                         >
                           Dicas diárias e bastidores
+                        </p>
+                      </div>
+
+                      <ArrowRight className={`ml-auto w-5 h-5 ${arrowColor}`} />
+                    </a>
+                  )}
+
+                  {content.texts.links.ctaWhatsapp?.trim() && (
+                    <a
+                      href={content.texts.links.ctaWhatsapp}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Link para o YouTube"
+                      className={`group flex items-center gap-6 p-6 rounded-2xl border ${borderCard} hover:shadow-lg transition-all ${cardBg} hover:scale-105 hover:duration-500`}
+                    >
+                      <div className="w-14 h-14 rounded-full bg-gradient-to-tr from-green-500 to-green-500 text-white flex items-center justify-center shrink-0">
+                        <Phone className="w-7 h-7" />
+                      </div>
+
+                      <div>
+                        <h1
+                          className={`font-bold font-secondFont text-lg ${text}`}
+                        >
+                          WhatsApp
+                        </h1>
+                        <p
+                          className={`font-secondFont font-light text-sm ${textOpacity}`}
+                        >
+                          Entre em Contato
                         </p>
                       </div>
 
