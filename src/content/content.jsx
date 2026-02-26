@@ -204,131 +204,131 @@ const content = {
         card1: {
           title: <>Direito Condominial</>,
           subtitle: <></>,
-          description: (
-            <div>
-              •<strong> Assessoria Jurídica Preventiva: </strong>Suporte
-              contínuo para Síndicos, Corpo Diretivo e Administradoras
-              (pareceres, notificações e dúvidas do dia a dia).
-              <br /> <br />• <strong>Gestão da Inadimplência:</strong> Cobrança
-              extrajudicial (notificações e acordos) e execução judicial de
-              cotas condominiais.
-              <br /> <br />•{" "}
-              <strong>Compliance Trabalhista Condominial:</strong> Auditoria de
-              contratos de terceirizadas (limpeza/portaria) e gestão de
-              funcionários orgânicos.
-              <br /> <br />• <strong>Revisão de Normas:</strong> Atualização de
-              Convenção de Condomínio e Regimento Interno.
-              <br /> <br />• <strong>
-                Acompanhamento de Assembleias:
-              </strong>{" "}
-              Suporte presencial ou online para garantir a legalidade das
-              deliberações.
-              <br /> <br />• <strong>Mediação de Conflitos:</strong> Atuação
-              técnica em disputas entre vizinhos (barulho, obras, vazamentos)
-              para evitar processos contra o condomínio.
-              <br /> <br />• <strong>Consultoria em Contratos:</strong> Análise
-              de risco em contratos com prestadores de serviço (obras,
-              manutenção, elevadores).
-              <br /> <br />• <strong>
-                Consultoria para Adequação à LGPD:
-              </strong>{" "}
-              Implementação completa da Lei Geral de Proteção de Dados no
-              condomínio. Mapeamento de dados (moradores, visitantes,
-              prestadores), revisão de contratos com empresas de
-              portaria/administradoras e políticas para uso de biometria e
-              câmeras (CFTV).
-            </div>
-          ),
+          // description: (
+          //   <div>
+          //     •<strong> Assessoria Jurídica Preventiva: </strong>Suporte
+          //     contínuo para Síndicos, Corpo Diretivo e Administradoras
+          //     (pareceres, notificações e dúvidas do dia a dia).
+          //     <br /> <br />• <strong>Gestão da Inadimplência:</strong> Cobrança
+          //     extrajudicial (notificações e acordos) e execução judicial de
+          //     cotas condominiais.
+          //     <br /> <br />•{" "}
+          //     <strong>Compliance Trabalhista Condominial:</strong> Auditoria de
+          //     contratos de terceirizadas (limpeza/portaria) e gestão de
+          //     funcionários orgânicos.
+          //     <br /> <br />• <strong>Revisão de Normas:</strong> Atualização de
+          //     Convenção de Condomínio e Regimento Interno.
+          //     <br /> <br />• <strong>
+          //       Acompanhamento de Assembleias:
+          //     </strong>{" "}
+          //     Suporte presencial ou online para garantir a legalidade das
+          //     deliberações.
+          //     <br /> <br />• <strong>Mediação de Conflitos:</strong> Atuação
+          //     técnica em disputas entre vizinhos (barulho, obras, vazamentos)
+          //     para evitar processos contra o condomínio.
+          //     <br /> <br />• <strong>Consultoria em Contratos:</strong> Análise
+          //     de risco em contratos com prestadores de serviço (obras,
+          //     manutenção, elevadores).
+          //     <br /> <br />• <strong>
+          //       Consultoria para Adequação à LGPD:
+          //     </strong>{" "}
+          //     Implementação completa da Lei Geral de Proteção de Dados no
+          //     condomínio. Mapeamento de dados (moradores, visitantes,
+          //     prestadores), revisão de contratos com empresas de
+          //     portaria/administradoras e políticas para uso de biometria e
+          //     câmeras (CFTV).
+          //   </div>
+          // ),
           icon: <Briefcase />,
           buttonLabelModal: "Fale Conosco",
-          buttonLabel: "Entenda",
+          buttonLabel: "Saiba mais",
           link: "https://condominial.taj.adv.br",
         },
         card2: {
           title: <>Direito Imobiliário</>,
           subtitle: <>A_Definir</>,
-          description: (
-            <div>
-              • <strong>Usucapião (Judicial e Extrajudicial):</strong>{" "}
-              Regularização da propriedade baseada na posse prolongada
-              (carro-chefe de regularização).
-              <br />
-              <br />• <strong>Regularização de Imóveis em Geral:</strong>{" "}
-              Adjudicação compulsória, retificação de área, desdobro, unificação
-              e averbações em cartório.
-              <br />
-              <br />•{" "}
-              <strong>
-                Assessoria em Compra e Venda (Due Diligence):
-              </strong>{" "}
-              Análise de risco documental do imóvel e dos vendedores para
-              garantir a segurança do negócio.
-              <br />
-              <br />• <strong>Contratos Imobiliários:</strong> Elaboração e
-              revisão de contratos de Compra e Venda, Locação (Residencial e
-              Comercial), Permuta e Cessão de Direitos.
-              <br />
-              <br />• <strong>Distrato Imobiliário:</strong> Resolução de
-              contratos de compra de imóvel na planta (Lei do Distrato).
-              <br />
-              <br />• <strong>
-                Assessoria Jurídica para Imobiliárias:
-              </strong>{" "}
-              Suporte para corretores e imobiliárias na confecção de contratos e
-              prevenção de responsabilidade civil.
-              <br />
-              <br />• <strong>Ações Possessórias:</strong> Reintegração de posse
-              e manutenção de posse (casos de invasão ou esbulho).
-            </div>
-          ),
+          // description: (
+          //   <div>
+          //     • <strong>Usucapião (Judicial e Extrajudicial):</strong>{" "}
+          //     Regularização da propriedade baseada na posse prolongada
+          //     (carro-chefe de regularização).
+          //     <br />
+          //     <br />• <strong>Regularização de Imóveis em Geral:</strong>{" "}
+          //     Adjudicação compulsória, retificação de área, desdobro, unificação
+          //     e averbações em cartório.
+          //     <br />
+          //     <br />•{" "}
+          //     <strong>
+          //       Assessoria em Compra e Venda (Due Diligence):
+          //     </strong>{" "}
+          //     Análise de risco documental do imóvel e dos vendedores para
+          //     garantir a segurança do negócio.
+          //     <br />
+          //     <br />• <strong>Contratos Imobiliários:</strong> Elaboração e
+          //     revisão de contratos de Compra e Venda, Locação (Residencial e
+          //     Comercial), Permuta e Cessão de Direitos.
+          //     <br />
+          //     <br />• <strong>Distrato Imobiliário:</strong> Resolução de
+          //     contratos de compra de imóvel na planta (Lei do Distrato).
+          //     <br />
+          //     <br />• <strong>
+          //       Assessoria Jurídica para Imobiliárias:
+          //     </strong>{" "}
+          //     Suporte para corretores e imobiliárias na confecção de contratos e
+          //     prevenção de responsabilidade civil.
+          //     <br />
+          //     <br />• <strong>Ações Possessórias:</strong> Reintegração de posse
+          //     e manutenção de posse (casos de invasão ou esbulho).
+          //   </div>
+          // ),
           icon: <User />,
           buttonLabelModal: "Fale Conosco",
-          buttonLabel: "Entenda",
+          buttonLabel: "Saiba mais",
           link: "https://imobiliario.taj.adv.br",
         },
         card3: {
           title: <>Família e Sucessões</>,
           subtitle: <>A_Definir</>,
-          description: (
-            <div>
-              • <strong>Ações de Guarda e Regime de Convivência:</strong>{" "}
-              Regulamentação de visitas e guarda (compartilhada/unilateral).
-              <br />
-              <br />• <strong>Alimentos (Pensão Alimentícia):</strong> Ações de
-              Fixação, Revisional (aumentar ou diminuir), Exoneração (cancelar)
-              e Execução (cobrança de atrasados).
-              <br />
-              <br />•{" "}
-              <strong>
-                Reconhecimento e Dissolução de União Estável:
-              </strong>{" "}
-              Tanto em cartório (amigável) quanto judicial (litigioso).
-              <br />
-              <br />• <strong>Reconhecimento de Paternidade:</strong>{" "}
-              Investigação e registro.
-              <br />
-              <br />• <strong>Divórcio:</strong> Judicial (litigioso) e
-              Extrajudicial (em cartório).
-              <br />
-              <br />• <strong>Inventário e Partilha:</strong> Judicial e
-              Extrajudicial (Cartório).
-              <br />
-              <br />• <strong>Planejamento Sucessório Básico:</strong>{" "}
-              Testamentos, Doação com reserva de usufruto e antecipação de
-              legítima (sem a complexidade de holding).
-              <br />
-              <br />• <strong>
-                Pacto Antenupcial e Contrato de Namoro:
-              </strong>{" "}
-              Prevenção patrimonial para novos casais.
-              <br />
-              <br />• <strong>Alteração de Regime de Bens:</strong> Mudança do
-              regime de casamento durante a união.
-            </div>
-          ),
+          // description: (
+          //   <div>
+          //     • <strong>Ações de Guarda e Regime de Convivência:</strong>{" "}
+          //     Regulamentação de visitas e guarda (compartilhada/unilateral).
+          //     <br />
+          //     <br />• <strong>Alimentos (Pensão Alimentícia):</strong> Ações de
+          //     Fixação, Revisional (aumentar ou diminuir), Exoneração (cancelar)
+          //     e Execução (cobrança de atrasados).
+          //     <br />
+          //     <br />•{" "}
+          //     <strong>
+          //       Reconhecimento e Dissolução de União Estável:
+          //     </strong>{" "}
+          //     Tanto em cartório (amigável) quanto judicial (litigioso).
+          //     <br />
+          //     <br />• <strong>Reconhecimento de Paternidade:</strong>{" "}
+          //     Investigação e registro.
+          //     <br />
+          //     <br />• <strong>Divórcio:</strong> Judicial (litigioso) e
+          //     Extrajudicial (em cartório).
+          //     <br />
+          //     <br />• <strong>Inventário e Partilha:</strong> Judicial e
+          //     Extrajudicial (Cartório).
+          //     <br />
+          //     <br />• <strong>Planejamento Sucessório Básico:</strong>{" "}
+          //     Testamentos, Doação com reserva de usufruto e antecipação de
+          //     legítima (sem a complexidade de holding).
+          //     <br />
+          //     <br />• <strong>
+          //       Pacto Antenupcial e Contrato de Namoro:
+          //     </strong>{" "}
+          //     Prevenção patrimonial para novos casais.
+          //     <br />
+          //     <br />• <strong>Alteração de Regime de Bens:</strong> Mudança do
+          //     regime de casamento durante a união.
+          //   </div>
+          // ),
           icon: <Scale />,
           buttonLabelModal: "Fale Conosco",
-          buttonLabel: "Entenda",
+          buttonLabel: "Saiba mais",
           link: "https://familia.taj.adv.br",
         },
       },
