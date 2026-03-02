@@ -159,7 +159,7 @@ function SocialMediaTemplate({ colorMode }) {
                         <h1
                           className={`font-bold font-secondFont text-lg ${text}`}
                         >
-                          Instagram pessoal
+                          Instagram
                         </h1>
                         <p
                           className={`font-secondFont font-light text-sm ${textOpacity}`}
@@ -193,7 +193,7 @@ function SocialMediaTemplate({ colorMode }) {
                         <p
                           className={`font-secondFont font-light text-sm ${textOpacity}`}
                         >
-                          Dicas diárias e bastidores
+                          Conteúdo corporativo
                         </p>
                       </div>
 
@@ -251,7 +251,7 @@ function SocialMediaTemplate({ colorMode }) {
                         <p
                           className={`font-secondFont font-light text-sm ${textOpacity}`}
                         >
-                          Conteúdo corporativo
+                          Dicas diárias e bastidores
                         </p>
                       </div>
 
